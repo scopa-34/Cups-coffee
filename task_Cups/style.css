@@ -1,0 +1,155 @@
+@font-face {
+  font-family: Miso;
+  src: url(./fonts/miso.otf);
+}
+
+@font-face {
+  font-family: MisoBold;
+  src: url(./fonts/miso-bold.ttf);
+}
+
+@font-face {
+  font-family: Lato;
+  src: url(./fonts/lato.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+#wrapper_cards_bronze {
+  background-color: rgba(250, 242, 10, 0.459);
+  height: 100vh;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.card_1 {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.price_1 {
+  color: green;
+  font-size: 70px;
+  font-weight: 800;
+  font-family: MisoBold, sans-serif;
+}
+.title_1 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Miso, sans-serif;
+  color: #000 (130, 109, 109);
+  margin-bottom: 25px;
+}
+.description_1 {
+  font-family: Lato, sans-serif;
+  color: rgb(130, 109, 109);
+  width: 100px;
+  font-weight: 800;
+  text-align: center;
+}
+
+
+
+
+.card_2 {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+}
+.price_2 {
+  color: green;
+  font-size: 70px;
+  font-weight: 800;
+  font-family: MisoBold, sans-serif;
+  margin-bottom: 25px;
+}
+.title_2 {
+  font-size: 40px;
+  font-weight: 800;
+  font-family: Miso, sans-serif;
+  color: #000 (130, 109, 109); 
+  margin-bottom: 25px;
+}
+.description_2 {
+  font-family: Lato, sans-serif;
+  color: rgb(130, 109, 109);
+  width: 100px;
+  font-weight: 800;
+  text-align: center;
+}
+
+
+
+
+
+.card_3 {
+  height: 400px;
+  width: 400px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.price_3 {
+  color: green;
+  font-size: 70px;
+  font-weight: 800;
+  font-family: MisoBold, sans-serif;
+}
+.title_3 {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: Miso, sans-serif;
+  color: #000 (130, 109, 109);
+  margin-bottom: 25px;
+}
+.description_3 {
+  font-family: Lato, sans-serif;
+  color: rgb(130, 109, 109);
+  width: 100px;
+  font-weight: 800;
+  text-align: center;
+}
+.coffe_cup{
+  position: absolute;
+}
+.coffe_cup2{
+  position: absolute;
+}
+.coffe_cup3{
+  position: absolute;
+}
+.cup{
+  margin-left: 15px;
+  position: absolute;
+}
+.cup2{
+  margin-left: 15px;
+  position: absolute;
+}
+.cup3{
+  margin-left: 15px;
+  position: absolute;
+}
+.smoke-img{
+  margin-bottom: 130px;
+}
+.smoke-img_2{
+  margin-bottom: 150px;
+}
